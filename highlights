@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>UCSF Stanford ENACT - Endometriosis Center</title>
+<link rel="shortcut icon" href="files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Description" lang="en" content="open source html and css template">
+<meta name="author" content="mlp design and tomiko oskotsky">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="public/pastel.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G6TS18EX2V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G6TS18EX2V');
+</script>
+</head>
+<body>
+<!-- Menu Items -->
+<nav>
+ <input type="checkbox" id="show-menu" role="button">
+ <label for="show-menu" class="open"><span class="fa fa-bars"></span></label>
+ <label for="show-menu" class="close"><span class="fa fa-times"></label>
+ <ul id="menu">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="study.html">About &#9662;</a>
+     <ul class="hidden">
+        <li><a href="study.html">The Study</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a class="active" href="highlights.html">Highlights</a></li>
+     </ul>
+  </li>
+ <li><a href="participation.html">Participants</a>
+  </li>
+  <!--<li><a href="providers.html">Providers</a></li>-->
+  <li><a href="contact.html">Contact Us</a></li>
+ </ul>
+</nav>
+<!-- // -->
+
+
+<!-- Banner -->
+<div id="banner">
+ <div id="header">
+   <img src="files/logo_yellowribbon_ucsf_stanford.png" alt="Logo of UCSF Stanford ENACT with yellow ribbon"> 
+
+ </div>
+</div>
+<!-- // -->
+
+<div id="content">
+ <!-- Page Items -->
+ <div class="pageitem">
+    	<h2>Research Highlights</h2>
+	<br />
+<!--
+ 	<blockquote>
+		<img src="files/istockphoto-1262576187-612x612.jpeg" alt="drawing of team" width=70%><br />
+	</blockquote>
+-->
+	<p class="dark" style="text-align: center;">PREPRINTS</p>
+
+	<div class="two-col-cell gallery">
+  		<p><img src="files/drugrepurposingbulkrna.jpg"	alt="endometriosis drug repositioning work - graphical abstract"></p>
+	</div>
+	<div class="two-col-cell gallery">
+  		<p>
+        Oskotsky TT, Bhoja A, Bunis D, Le BL, Kosti I, Li C, Houshdaran S, Sen S, Vallvé-Juanico J, Wang W, Arthurs E, Mahoney L, Lang L, Gaudilliere B, Stevenson DK, 
+        Irwin JC, Giudice LC, McAllister S, Sirota M. 
+        <span class="dark">Applying a computational transcriptomics-based drug repositioning pipeline to identify therapeutic candidates for endometriosis.</span>
+        medRxiv. 2022;2022.12.20.22283736. DOI: <a href="https://doi.org/10.1101/2022.12.20.22283736" target="_blank">10.1101/2022.12.20.22283736</a>
+
+  <span class="dark">Stanford University</span><br />
+      </p>
+		
+	</div>
+
+	<p class="dark" style="text-align: center;">PUBLICATIONS</p>
+  
+	<div class="two-col-cell gallery">
+		<p><img src="files/fasebreview.jpeg" alt="FASEB review article -- graphical abstract" >
+				</p>
+		
+	</div>
+	<div class="two-col-cell gallery">
+  <!-- faseb article details-->
+      <p>
+      Giudice LC, Oskotsky TT, Falako S, Opoku-Anane J, Sirota M. 
+      <span class="dark">Endometriosis in the era of precision medicine and impact on sexual and reproductive health across the lifespan and in diverse populations.</span>
+      The FASEB Journal. 2023;37(9):e23130. PMID: 37641572. DOI: <a href = "https://onlinelibrary.wiley.com/doi/abs/10.1096/fj.202300907" target="_blank">10.1096/fj.202300907</a>. 
+      </p>
+	</div>
+
+		 
+<p><span class="dark"></span> </p>
+
+
+ </div>
+
+ <!-- // -->
+</div>
+<!-- Footer Items -->
+<div id="footer">
+ <p>&copy; UCSF-Stanford ENACT</p>
+ <!--Credits below must be kept under CC-NC 3.0 License-->
+ <p style="color: #ccc;"><a style="color: #ccc;" href="http://www.mlpdesign.net">HTML and CSS</a> by MLPdesign.net</p>
+</div>
+<!-- // -->
+</body>
+</html>
